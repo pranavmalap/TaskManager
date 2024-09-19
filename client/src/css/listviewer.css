@@ -1,0 +1,131 @@
+
+.list-viewer {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.add-new-task {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#add-task-btn {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.priority {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.priority button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.task-due-date {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.priority-label {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.priority-label.high {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.priority-label.medium {
+  background-color: #fbc02d;
+  color: white;
+}
+
+.priority-label.low {
+  background-color: #388e3c;
+  color: white;
+}
+
+.arrow-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+  color: #333;
+}
+
+.arrow-btn.open {
+  transform: rotate(180deg);
+  color: green;
+  
+}
+
+.task-details {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #333;
+  padding-left: 20px;
+}
+
+.task-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+}

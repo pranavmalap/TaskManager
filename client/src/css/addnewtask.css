@@ -1,0 +1,91 @@
+.add-new-task-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.heading-and-deleteBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading-and-deleteBtn h1 {
+  font-size: 20px;
+  color: #333;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.textarea-field {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: none;
+}
+select.input-field {
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-task-btn,
+.cancel-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  width: 48%;
+}
+
+.add-task-btn {
+  background-color: #00796b;
+  color: white;
+}
+
+.add-task-btn:hover {
+  background-color: #004d40;
+}
+
+.cancel-btn {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.cancel-btn:hover {
+  background-color: #ccc;
+}
