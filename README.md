@@ -4,7 +4,7 @@ This project is a simple Task Management System that allows users to add, delete
 
 ## Features
 
-- ** Add New Task**: Users can create tasks by providing task details such as task name, description, due date, and priority.
+- **Add New Task**: Users can create tasks by providing task details such as task name, description, due date, and priority.
 - **Delete Task**: Allows users to delete a task from the task list.
 - **Edit Task**: Users can modify an existing task (task name, description, due date, and priority). 
 - **Manage Task Priority**: Tasks can be filtered based on their priority levels (High, Medium, Low) and users can mark tasks as done.
